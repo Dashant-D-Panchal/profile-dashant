@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION BY DASHANT</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="" onsubmit="sub()" id="myform">
+            <h1 id="result">WELCOME TO OUR WEBSITE</h1>
+            <p class="resulttext">PLEASE FILL THIS FORM</p>
+            <label for="myform">Name:</label> <input type="text" id="fname" placeholder="please enter your name" required>
+            <br>
+            <label for="myform">Username:</label> <input type="text" id="uname" placeholder="please enter username" required>
+            <br>
+            <label for="myform">email:</label> <input type="email" id="email" placeholder="please enter your email"  required>
+            <br>
+            <label for="myform">Password:</label> <input type="password" id="psw" placeholder="please enter password"  required>
+            <br>
+            <label for="myform" id="cpswl">Conform Password:</label> <input type="password" id="cpsw" placeholder="please Conform password"  required>
+            <br>
+            <label for="myform">Phone number:</label> <input type="number" id="pnum" placeholder="enter phone number"  required>
+            <br>
+            <label for="myform">Birth Date:</label> <input type="date" name="" id="dob" placeholder="please enter your name"  required>
+            <br>
+            <p id="text"></p>
+            <br>
+            <label for="myform">Gender:</label> <select name="gender" id="gender" required>
+                <option value="select">select your gender</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <label for="myform">Photo:</label> <input type="file" id="pic" accept="image/jpeg"  required>
+            <br>
+            <input type="submit" id="submit">
+
+            <h1 id="subtext"></h1>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>

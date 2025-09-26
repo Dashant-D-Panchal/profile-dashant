@@ -1,0 +1,418 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  /* align-items: center; */
+  position: fixed;
+  background-color: aliceblue;
+  z-index: 1;
+  background-color: #37474f;
+  z-index: 1000;
+}
+
+.menu-icon i {
+  display: none;
+}
+
+.top h1 {
+  display: flex;
+  margin-left: 20px;
+  width: 300px;
+  font-style: oblique;
+  font-family: cursive;
+  color: #fff;
+  margin-top: 12px;
+}
+
+.top h1 p {
+  color: orange;
+}
+
+.top a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.top .col-1 {
+  margin-right: 10px;
+  display: flex;
+  width: 410px;
+  margin-left: 100px;
+}
+
+.tab {
+  border-bottom: 2px solid grey;
+}
+
+.col-1 a {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  display: block;
+  position: relative;
+  padding: 4px 0;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.col-1 a::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  transition: 0.5s transform ease;
+  transform: scale3d(0, 1, 1);
+  transform-origin: 50% 0;
+}
+
+.col-1 a:hover::before {
+  transform: scale3d(1, 1, 1);
+  /* transition: 1s; */
+}
+
+.col-1 a::before {
+  background: #cfd8dc;
+  transform-origin: 100% 50%;
+}
+
+.col-1 a:hover::before {
+  transform-origin: 0 50%;
+}
+
+.addtocart {
+  margin-top: -25px;
+  background-color: orange;
+  color: #fff;
+  padding: 5px 8px;
+  /* margin-right: -10px; */
+  border: 3px solid gray;
+  border-radius: 5px;
+  width: 60px;
+  height: 50px;
+}
+
+#search {
+  height: 35px;
+  width: 500px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 25px;
+  margin-left: 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.slider {
+  z-index: -1;
+  padding-top: 80px;
+}
+
+.slider img {
+  position: relative;
+  z-index: 1;
+}
+.shopping-tab-area {
+  position: relative;
+  z-index: 100;
+  margin-top: -250px;
+  margin-right: 17px;
+}
+
+.shopping-tab {
+  height: 500px;
+  width: 300px;
+  background: linear-gradient(gray, #546e7a);
+  color: #fff;
+  text-align: center;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* .link1 a {
+  text-decoration: none;
+}  */
+  .link1 {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.link1 a {
+  text-decoration: none;
+}
+
+.shopping-tab h3 {
+  font-size: 26px;
+}
+
+.grp1 {
+  display: flex;
+}
+
+.grp2 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.img1 {
+  height: 130px;
+  width: 130px;
+  margin: 12px;
+  margin-top: 0px;
+}
+
+.img1 img {
+  height: 100%;
+  width: 100%;
+}
+
+.img2 {
+  height: 130px;
+  width: 130px;
+  margin: 12px;
+  margin-top: 0px;
+}
+
+.img2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.img3 {
+  height: 130px;
+  width: 130px;
+  margin: 12px;
+}
+
+.img3 img {
+  height: 100%;
+  width: 100%;
+}
+
+.img4 {
+  height: 130px;
+  width: 130px;
+  margin: 12px;
+}
+
+.img4 img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: 'Arial', sans-serif;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-brand h2 {
+  color: #ff6600;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ff6600;
+}
+
+.footer-newsletter input {
+  padding: 8px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-newsletter button {
+  padding: 8px 12px;
+  border: none;
+  background: #ff6600;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a {
+  width: 30px;
+  margin-right: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.card-area{
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  padding: 10px;
+  width: 350px;
+  border: 2px solid black;
+  /* margin: 10px; */
+  margin-top: 20px;
+}
+
+.imagecontainer {
+  height: 200px;
+  width: 200px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.imagecontainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.catagory {
+  width: auto;
+  text-align: center;
+  border-radius: 6px;
+  background-color: beige;
+}
+
+.productname {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.productrating {
+  color: gold;
+  text-align: center;
+}
+
+.productdescription {
+  font-size: 16px;
+}
+
+.priceelme {
+  display: flex;
+  font-weight: 600;
+}
+
+.productactualprice {
+  margin-left: 10px;
+  color: red;
+  text-decoration: line-through;
+}
+
+.stockelme {
+  display: flex;
+  align-items: center;
+}
+
+.stockquantity {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.quantityeleme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stockelem {
+  display: flex;
+  align-items: center;
+}
+
+.cart-minus {
+  margin-top: -10px;
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.cart-plus {
+  margin-top: -10px;
+  height: 50px;
+  width: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.quantitynumb {
+  height: 40px;
+  width: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.add-to-cart {
+  padding: 15px;
+  background-color: black;
+  color: #fff;
+}
+
+.buy-now {
+  margin-left: 75px;
+  padding: 15px;
+  background-color: whitesmoke;
+  color: black;
+}
