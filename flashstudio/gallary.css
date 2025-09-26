@@ -1,0 +1,739 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    background-color: rgb(232, 231, 230);
+}
+.col{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dropdown{
+    display: none;
+}
+.col i{
+    display: none;
+}
+.raw{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+.col-2{
+    display: flex;
+    margin-right: 500px;
+}
+.col-2 a{
+    margin-top: 8px;
+    text-decoration: none;
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    padding: 20px 20px;
+}
+.title{
+    height: 350px;
+    width: 100%;
+    background-image: url(page-title.webp);
+    background-size: cover;
+    background-position-y: 90px;
+    background-position-x: center;
+    background-size: 1700px;
+}
+.title h1{
+    z-index: 1;
+    color: white;
+    padding-top: 200px;
+    margin-left: 200px;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+}
+.link{
+    display: flex;
+    margin-top: -50px;
+    font-family: "Dancing Script", cursive;
+}
+.title a{
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    margin-left: 950px;
+}
+.title p{
+    color: aliceblue;
+    font-size: 25px;
+}
+.moment{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+}
+.pic1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.special{
+    font-family: "dancing script", cursive;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 20px 50px;
+    font-size: 35px;
+    margin-top: 65px;
+    box-shadow: 0px 0px 51px -20px rgba(0, 0, 0, 0.5);
+}
+.lastbar{
+    text-align: center;
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.follow{
+    margin-left: 50px;
+    width: 300px;
+}
+.follow p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.follow i{
+    color: red;
+    font-size: 30px;
+    padding: 20px 20px;
+}
+.contact{
+    margin-left: 20px;
+    width: 300px;
+}
+.contact h3{
+    font-family: "Dancing Script", cursive;
+}
+.contact i{
+    color: red;
+    font-size: 30px;
+    padding: 20px 20px;
+    margin-right: 200px;margin-top: 20px;
+}
+.contact p{
+    font-size: 17px;
+    margin-top: -55px;
+    margin-left: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.letest2{
+    margin-left: 20px;
+    width: 300px;
+}
+.letest2 h3{
+    font-family: "Dancing Script", cursive;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.pic2{
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.pic2 img{
+    height: 120px;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    margin-left: -150px;
+}
+.pic2 h5{
+    font-size: 15px;
+    margin-left: 120px;
+    margin-top: -85px;
+}
+.pic3{
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+.pic3 img{
+    height: 90px;
+    margin-left: -150px;
+    margin-top: -40px;
+
+}
+.pic3 h5{
+    font-size: 13px;
+    margin-left: 120px;
+    margin-top: -50px;
+}
+.letest2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: -130px;
+    margin-top: -50px;
+}
+.map{
+    margin-left: 50px;
+    width: 300px;
+}
+.map h3{
+    font-family: "Dancing Script", cursive;
+}
+.map iframe{
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+}
+.develop{
+    margin-top: 50px;
+}
+.develop p{
+    text-align: center;
+    padding: 30px;
+    color: gray;
+    background-color: black;
+}
+.develop a{
+    text-decoration: none;
+    color: rgb(207, 200, 200);
+}
+.title2{
+    text-align: center;
+    margin-top: 100px;
+}
+.title2 h1{
+    font-family: "Dancing Script", cursive;
+    color: red;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+.title2 h4{
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+.imgbaar{
+    width: auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+.bar1{
+    width: 50%;
+    display: flex;
+}
+.bar2{
+    width: 50%;
+    display: flex;
+}
+.col1{
+    width: 50%;
+}
+.col2{
+    width: 50%;
+}
+.col3{
+    width: 50%;
+}
+.col4{
+    width: 50%;
+}
+.img1 img{
+    height: 200px;
+    width: 295px;
+    margin: 10px 10px;
+}
+.img2 img{
+    height: 400px;
+    width: 295px;
+    margin: 10px 10px;
+}
+.img3 img{
+    height: 300px;
+    width: 295px;
+    margin: 10px 10px;
+}
+.img4 img{
+    height: 470px;
+    width: 295px;
+    margin: 10px 10px;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .col-2{
+        font-size: smaller;
+        display: block;
+        display: none;
+    }
+    .col{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .dropdown{
+        display:contents;
+    }
+    .col img{
+        height: 30px;
+    }
+    .dropbtn {
+        background-color: white;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: white;
+      }
+      .raw-1{
+        display: block;
+    }
+    .pic{
+        text-align: center;
+    }
+    .pic img{
+        height: 240px;
+    }
+    .pic .h2{
+        width: 100%;
+        /* text-align: center; */
+        font-size: 30px;
+        display: block;
+    }
+    .pic p{
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .raw-2{
+        display: block;
+    }
+    .lastbar{
+        margin-top: 50px;
+        width: 100%;
+        display: block;
+    }
+    .follow{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .letest2{
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .map{
+        margin-left: auto;
+        margin-top: 20px;
+        margin-right: auto;
+    }
+    .develop{
+        font-size: 7px;
+    }
+    .title{
+        height: 160px;
+        background-size: 650px;
+        background-position-y: bottom;
+    }
+    .title h1{
+        display: none ;
+    }
+    .link{
+        display: none;
+    }
+    .imgbaar{
+        width: auto;
+        display: block;
+        margin-bottom: 100px;
+    }
+    .bar1{
+        width: auto;
+        display: block;
+    }
+    .bar2{
+        width: auto;
+        display: block;
+    }
+    .col1{
+        width: auto;
+        text-align: center;
+    }
+    .col2{
+        width: auto;
+        text-align: center;
+    }
+    .col3{
+        width: auto;
+        text-align: center;
+    }
+    .col4{
+        width: auto;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .dropbtn {
+        margin-top: 10px;
+        background-color: white;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: white;
+      }
+    .col-2{
+        display: block;
+        display: none;
+    }
+    .col img{
+        height: 30px;
+    }
+    .raw-1{
+        display: block;
+    }
+    .pic img{
+        
+        height: 320px;
+    }
+    .pic .h2{
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 30px;
+        display: block;
+    }
+    .pic p{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .raw-2{
+        display: block;
+    }.raw-1{
+        display: block;
+    }
+    .raw-2{
+        display: block;
+    }
+    .lastbar{
+        margin-top: 100px;
+        width: 100%;
+        display: block;
+    }
+    .follow{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .letest2{
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .map{
+        margin-left: auto;
+        margin-top: auto;
+        margin-right: auto;
+    }
+    .develop{
+        font-size: 10px;
+    }
+    .title{
+        height: 250px;
+        background-size: 1200px;
+        background-position-y: bottom;
+    }
+    .title h1{
+        display: none;
+    }
+    .link{
+        display: none;
+    }
+    .imgbaar{
+        width: auto;
+        display: block;
+        margin-bottom: 100px;
+    }
+    .bar1{
+        width: auto;
+        display: block;
+    }
+    .bar2{
+        width: auto;
+        display: block;
+    }
+    .col1{
+        width: auto;
+        text-align: center;
+    }
+    .col2{
+        width: auto;
+        text-align: center;
+    }
+    .col3{
+        width: auto;
+        text-align: center;
+    }
+    .col4{
+        width: auto;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .col{
+        margin-left: 20px;
+    }
+    .col-2{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 450px;
+    }
+    .col-2 a{
+        font-size: 28px;
+        padding: 10px 10px;
+    }
+    .pics{
+        display: block;
+    }
+    .link{
+        display: none;
+    }
+    .lastbar{
+        margin-right: 0px;
+    }
+    .lastbar h3{
+        font-size: large;
+    }
+    .lastbar p{
+        font-size: small;
+    }
+    .follow{
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    .follow img{
+        height: 30px;
+    }
+    .follow p{
+        font-size: small;
+    }
+    .follow i{
+        font-size: large;
+    }
+    .contact{
+        margin-left: -40px;
+        margin-right: auto;
+    }
+    .contact h3{
+        font-size: large;
+        margin-left: -50px;
+    }
+    .contact p{
+        margin-top: 10px;
+        margin-left: -50px;
+    }
+    .contact i{
+        font-size: large;
+        margin-left: 100px;
+        margin-top: auto;
+    }
+    .contact a{
+        margin-left: -50px;
+    }
+    .letest2{
+        margin-left: -40px;
+        margin-right: auto;
+    }
+    .letest2 .pic2 img{
+        height: 100px;
+    }
+    .letest2 .pic3 img{
+        height: 70px;
+    }
+    .letest2 h5{
+        margin-left: 70px;
+        
+    }
+    .map{
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .title h1{
+        margin-left: auto;
+        text-align: center;
+    }
+    .imgbaar{
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    .bar1{
+        width: auto;
+        justify-content: center;
+        /* display: block; */
+    }
+    .bar2{
+        width: auto;
+        justify-content: center;
+        /* display: block; */
+    }
+    .col1{
+        width: auto;
+        /* text-align: center; */
+    }
+    .col2{
+        width: auto;
+        /* text-align: center; */
+    }
+    .col3{
+        width: auto;
+        /* text-align: center; */
+    }
+    .col4{
+        width: auto;
+        /* text-align: center; */
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1200px){
+    .col-2{
+        margin-right: 550px;
+    }
+    .link{
+        margin-left: -150px;
+    }
+    .img1 img{
+        height: 200px;
+        width: 238px;
+        margin: 10px 10px;
+    }
+    .img2 img{
+        height: 400px;
+        width: 238px;
+        margin: 10px 10px;
+    }
+    .img3 img{
+        height: 300px;
+        width: 238px;
+        margin: 10px 10px;
+    }
+    .img4 img{
+        height: 470px;
+        width: 238px;
+        margin: 10px 10px;
+    }
+}
+@media only screen and (min-width:1100px) and (max-width:1200px){
+    .col-2{
+        margin-right: 550px;
+    }
+    .link{
+        margin-left: -150px;
+    }
+    .img1 img{
+        height: 200px;
+        width: 245px;
+        /* margin: 10px 10px; */
+    }
+    .img2 img{
+        height: 400px;
+        width: 245px;
+        /* margin: 10px 10px; */
+    }
+    .img3 img{
+        height: 300px;
+        width: 245px;
+        /* margin: 10px 10px; */
+    }
+    .img4 img{
+        height: 470px;
+        width: 245px;
+        /* margin: 10px 10px; */
+    }
+    .bar1{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .bar2{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .imgbaar{
+        justify-content: space-between;
+    }
+}
