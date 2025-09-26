@@ -1,0 +1,69 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+}
+body{
+    background-color: #d1c4e9;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+}
+form{
+    background-color: #bbdefb;
+    padding: 20px;
+}
+.form h2{
+    color: burlywood;
+}
+.form h3{
+    color: red;
+}
+input{
+    margin: 20px;
+    padding: 10px 40px 10px 0px;
+}
+#dob{
+    width: 160px;
+    margin: 20px;
+    padding: 10px 40px 10px 0px;
+}
+#gender{
+    width: 200px;
+    margin: 20px;
+    padding: 10px 40px 10px 0px;
+}
+#pic{
+    margin-right: -75px;
+}
+#submit{
+    margin-top: 30px;
+    margin-right: 140px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #d1c4e9;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #bbdefb;
+    color: #f8bbd0;
+}
+#text{
+    text-align: center;
+    margin-left: 50px;
+}
+#result{
+    font-size: 25px;
+    color: #ffaaaa;
+}
+.resulttext{
+    margin-right: 90px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#subresult{
+    margin-right: 100px;
+}

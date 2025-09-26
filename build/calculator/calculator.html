@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1 style="font-size: 50px; margin-top: 20px;">welcome to My calculator</h1>
+    <div class="main">
+        <div class="input">
+            <input type="text" id="display" disabled style="background-color: white; color: black;">
+        </div>
+        <div class="buttons">
+            <button onclick="cleartext()" style="background-color: red;">AC</button>
+            <button onclick="negetivetext()">+/-</button>
+            <button onclick="dlt()">DLT</button>
+            <button onclick="enter('/')">/</button>
+            <button onclick="enter('9')">9</button>
+            <button onclick="enter('8')">8</button>
+            <button onclick="enter('7')">7</button>
+            <button onclick="enter('*')">X</button><br>
+            <button onclick="enter('6')">6</button>
+            <button onclick="enter('5')">5</button>
+            <button onclick="enter('4')">4</button>
+            <button onclick="enter('-')">-</button><br>
+            <button onclick="enter('3')">3</button>
+            <button onclick="enter('2')">2</button>
+            <button onclick="enter('1')">1</button>
+            <button onclick="enter('+')">+</button><br>
+            <button onclick="enter('00')">00</button>
+            <button onclick="enter('0')">0</button>
+            <button onclick="enter('.')">.</button>
+            <button id="eqalto" onclick="calc()" style="font-weight: bold; background-color: blue; color: white;">=</button><br>
+        </div>
+    </div>
+    <script>
+        function enter(value){
+            document.getElementById('display').value += value;
+        }
+        function calc(){
+            try{
+                document.getElementById('display').value = eval(document.getElementById('display').value)
+            }
+            catch (error){
+                document.getElementById("display"). value = "error";
+            }
+        }
+        function cleartext(){
+            document.getElementById("display").value = "";
+        }
+        function dlt(){
+            let d = document.getElementById("display").value;
+            d = d/10
+            let c = Math.floor(d);
+            document.getElementById("display").value = c;
+        }
+        function negetivetext(){
+            let d = document.getElementById("display").value;
+            if(d>=0){
+                c = -d;
+                document.getElementById("display").value = c; 
+            }
+            if(d<=0){
+                c = Math.abs(d);
+                document.querySelector("#display").value = c;
+            }
+        }
+    </script>
+</body>
+</html>

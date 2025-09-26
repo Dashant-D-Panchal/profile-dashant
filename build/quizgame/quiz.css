@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(bg\ 1\ for\ quiz.jpg);
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+
+.navbar h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.col-1 a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.col-1 a:hover {
+    color: green;
+}
+
+#quiz-home {
+    text-align: center;
+    margin-top: 18%;
+}
+
+#quiz-home h3 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#quiz-home p {
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home-btn {
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(1, 81, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+#popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: rgb(64, 104, 4);
+    border-radius: 6px;
+    display: none;
+}
+
+#popup h1 {
+    margin: 10px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: rgb(180, 178, 178);
+    border-bottom: 2px solid green;
+}
+
+#popup p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+#popup #btngroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid green;
+    padding-top: 15px;
+}
+
+#popup #btngroup #info-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+#popup #btngroup #info-btn:nth-child(1) {
+    background-color: #fff;
+    color: green;
+}
+
+#popup #btngroup #info-btn:nth-child(1):hover {
+    background-color: green;
+    color: #fff;
+}
+
+#popup #btngroup #info-btn:nth-child(2):hover {
+    background-color: #fff;
+    color: green;
+}
+
+#qustion-area {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/profile-dashant/static/css/main.1059607d.css",
+    "main.js": "/profile-dashant/static/js/main.57a11686.js",
+    "static/media/drag&drop.png": "/profile-dashant/static/media/drag&drop.e0416891fc791a9b5c60.png",
+    "static/media/flesh.png": "/profile-dashant/static/media/flesh.29fd15158efcdaf4af8f.png",
+    "static/media/quiz.png": "/profile-dashant/static/media/quiz.22db0c5686109499fe34.png",
+    "static/media/man.png": "/profile-dashant/static/media/man.7a0052d4aff514a02ba0.png",
+    "static/media/HC-removebg-preview.png": "/profile-dashant/static/media/HC-removebg-preview.afefe908f772cc484c33.png",
+    "static/media/calc.png": "/profile-dashant/static/media/calc.deb0e02818a8fc7058b6.png",
+    "static/media/form.png": "/profile-dashant/static/media/form.c4b2d8432a63efebff05.png",
+    "static/media/js.png": "/profile-dashant/static/media/js.420160a9540420d56c39.png",
+    "static/media/react.png": "/profile-dashant/static/media/react.80637184229e03eb3233.png",
+    "static/media/phinics.png": "/profile-dashant/static/media/phinics.7d6a8fc51dd03974e872.png",
+    "static/media/contact.png": "/profile-dashant/static/media/contact.e7ad4647691466757322.png",
+    "index.html": "/profile-dashant/index.html",
+    "main.1059607d.css.map": "/profile-dashant/static/css/main.1059607d.css.map",
+    "main.57a11686.js.map": "/profile-dashant/static/js/main.57a11686.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1059607d.css",
+    "static/js/main.57a11686.js"
+  ]
+}

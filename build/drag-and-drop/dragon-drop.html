@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Drag and Drop Image</title>
+    <link rel="stylesheet" href="dragon-drop.css" />
+  </head>
+
+  <body>
+    <h1 id="text"></h1>
+    <div class="main">
+      <div id="box1">
+        <div id="mbox1">
+          <div
+            class="container"
+            id="container1"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          >
+            <img
+              src="https://tse3.mm.bing.net/th/id/OIP.XeDp5SDJJL5ajss_JDzjMgHaGt?pid=Api&P=0&h=180"
+              id="dragImage1"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div
+            class="container"
+            id="container2"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          >
+            <img
+              src="https://tse2.mm.bing.net/th/id/OIP.SuTudLIuocxV-xQJOgT_WQHaFj?pid=Api&P=0&h=180"
+              id="dragImage2"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div
+            class="container"
+            id="container3"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          >
+            <img
+              src="https://tse4.mm.bing.net/th/id/OIP.CiANhqZ0dM09sqW1le4xiAHaFW?pid=Api&P=0&h=180"
+              id="dragImage3"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+
+          <div
+            class="container"
+            id="container4"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          >
+            <img
+              src="https://tse2.mm.bing.net/th/id/OIP.NYtV9MwTsn5ksiasiT3O6wHaE8?pid=Api&P=0&h=180"
+              id="dragImage4"
+              draggable="true"
+              ondragstart="drag(event)"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="box1">
+        <div class="mbox3">
+          <div
+            class="container"
+            id="container5"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          ></div>
+
+          <div
+            class="container"
+            id="container6"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          ></div>
+        
+          <div
+            class="container"
+            id="container7"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          ></div>
+
+          <div
+            class="container"
+            id="container8"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="dragon-drop.js"></script>
+  </body>
+</html>
